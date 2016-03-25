@@ -60,7 +60,7 @@ app.use(function (err, req, res, next) {
     next(err);
 });
 
-let serverPort = process.env.PORT || 80;
+let serverPort = process.env.PORT || 8080;
 
 app.listen(serverPort);
 
