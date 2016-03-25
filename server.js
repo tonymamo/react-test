@@ -60,11 +60,7 @@ app.use(function (err, req, res, next) {
     next(err);
 });
 
-<<<<<<< HEAD
 let serverPort = process.env.PORT || 8080;
-=======
-let serverPort = process.env.PORT || 80;
->>>>>>> c802e26ad763a8e6917d1cca8bf30df3f3f435cd
 
 app.listen(serverPort);
 
